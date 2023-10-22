@@ -6,6 +6,6 @@ public class Ex3_5 {
 		int score = (int) d;
 		System.out.println("score=" + score);
 		System.out.println("d=" + d);
-		
+		int a = 1;
 	}
 }
