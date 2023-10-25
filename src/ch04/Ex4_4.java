@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Ex4_4 {
 	public static void main(String[] args) {
 		int score = 0;
-		char grade = ' ';
+		char grade = 'D'; // 여기를 공백으로 혹은 제일 아랫값, 기본값으로 설정하면 else문 생략 가능
 		
 		System.out.print("점수를 입력하세요.>");
 		Scanner scanner = new Scanner(System.in);
@@ -16,9 +16,10 @@ public class Ex4_4 {
 			grade = 'B';			
 		} else if (score >= 70) {
 			grade = 'C';
-		} else {
-			grade = 'D';
-		}
+		} 
+//		else {
+//			grade = 'D';
+//		}
 		System.out.println("당신의 학점은 "+ grade +"입니다.");
 	}
 }
