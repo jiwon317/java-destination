@@ -9,5 +9,6 @@ public class Ex5_1tmp3 {
 		}
 		
 		System.out.println(Arrays.toString(iArr));
+		System.out.println(Math.random() * 45);
 	}
 }
