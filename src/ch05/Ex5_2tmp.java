@@ -9,5 +9,11 @@ public class Ex5_2tmp {
 		
 		System.out.println(Arrays.toString(arr)); 
 		System.out.println(Arrays.deepToString(arr2D));
+		
+		String[][] str2D = {{"ccc","bbb"},{"AAA","BBB"}};
+		String[][] str2D2 = {{"aaa","bbb"},{"AAA","BBB"}};
+		
+		System.out.println(Arrays.deepEquals(str2D,str2D2));
+		
 	}
 }
