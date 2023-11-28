@@ -15,7 +15,7 @@ class Card {
 }
 
 
-public class Ex9_4 {
+class Ex9_4 {
 	public static void main(String args[]) {
 		Card c1 = new Card();
 		Card c2 = new Card();
