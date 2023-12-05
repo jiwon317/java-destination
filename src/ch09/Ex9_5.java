@@ -16,6 +16,10 @@ class Card2 {
 	public String toString() {
 		return "kind : " + kind + ", number : " + number;	// Card2인스턴스의  kind와 number를 문자열로 반환한다.
 	}
+	
+	public String toString(String kind, int number) {
+		return "kind : " + kind + ", number : " + number;
+	}	
 }
 
 class Ex9_5 {
@@ -24,6 +28,7 @@ class Ex9_5 {
 		Card2 c2 = new Card2("HEART", 10);
 		System.out.println(c1.toString());
 		System.out.println(c2.toString());
-//		System.out.println(c2.toString("HEART", 10));   <- 이건 왜 적용이 안될까?
+		System.out.println(c2.toString("ACTOR", 5));   
 	}
 }
+ 
