@@ -5,7 +5,7 @@ import java.util.*;
 public class Ex10_5 {
 	public static void main(String args[]) {
 		if(args.length !=2) {
-			System.out.println("Usage : java Ex10_4 2019 9");
+			System.out.println("Usage : java Ex10_5 2019 9");
 			return;
 		}
 		int year  = Integer.parseInt(args[0]);
@@ -38,9 +38,9 @@ public class Ex10_5 {
 		for(int i = 1; i < START_DAY_OF_WEEK; i++)
 			System.out.println("   ");
 		
-//		for(int i = 1; n = START_DAY_OF_WEEK; i <= END_DAY; i++, n++) {
-//			System.out.print((i < 10)? "  "+i : " " +i );
-//			if(n%7==0) System.out.println();
-//		}
+		for(int i = 1, n = START_DAY_OF_WEEK; i <= END_DAY; i++, n++) {
+			System.out.print((i < 10)? "  "+i : " " +i );
+			if(n%7==0) System.out.println();
+		}
 	}
 }
